@@ -1,0 +1,20 @@
+body {
+    background-color: burlywood;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+
+}
+
+.caixa2 {
+width:  200px;
+height: 200px;
+background-color: blueviolet;
+}
+
+.caixa2:hover{
+   transition: 1.5s;
+   background-color: black;
+
+}

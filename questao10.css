@@ -1,0 +1,45 @@
+body {
+    background-color: burlywood;
+    display: flex;
+    height: 100vh;
+
+}
+
+.caixa10 {
+display: flex;
+width:  100%;
+height: 100%;
+justify-content: center;
+align-items: center;
+}
+
+.caixa10 > img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    animation: 3s subir linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes subir {
+
+    0% {
+        top: 0%;
+        left: 0%;
+        width:200px ;
+        height: 200px;
+    
+    }
+    100%{
+        top: -45%;
+        left: -43%;
+        width: 75px;
+        height: 75px;;
+
+      
+    }
+    
+
+} 

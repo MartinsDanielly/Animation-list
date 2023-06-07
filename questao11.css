@@ -1,0 +1,51 @@
+body {
+  background-color: burlywood;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.caixa11 {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+  animation: pulsar 4s ease-in-out infinite;
+}
+
+@keyframes pulsar {
+  0% {
+    transform: rotateZ(0deg) scale(1);
+  }
+
+  12% {
+    transform: rotateZ(45deg) scale(1.5);
+  }
+
+  25% {
+    transform: rotateZ(90deg) scale(1);
+  }
+
+  37% {
+    transform: rotateZ(135deg) scale(1.5);
+  }
+
+  50% {
+    transform: rotateZ(180deg) scale(1);
+  }
+  62% {
+    transform: rotateZ(225deg) scale(1.5);
+  }
+
+  75% {
+    transform: rotateZ(270deg) scale(1);
+  }
+
+  87% {
+    transform: rotateZ(315deg) scale(1.5);
+  }
+
+  100% {
+    transform: rotateZ(360deg) scale(1);
+  }
+}
